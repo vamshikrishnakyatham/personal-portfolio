@@ -12795,3 +12795,18 @@ section.resume-section .resume-section-content {
   color: #555;
   /* Lighter color */
 }
+
+.profile-pic {
+  width: 150px;
+  /* Adjust size as needed */
+  height: 150px;
+  /* Adjust size as needed */
+  border-radius: 50%;
+  /* Makes the image circular */
+  object-fit: cover;
+  /* Ensures the image covers the area */
+  overflow: hidden;
+  /* Hides overflow if the image is larger */
+  border: 2px solid #fff;
+  /* Optional: adds a border */
+}
