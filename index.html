@@ -66,17 +66,24 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Engineer Intern</h3>
+                            <h3 class="mb-0">Software Engineer</h3>
                             <div class="subheading mb-3">Finta</div>
                             <hr>
                             <span class="small-text">Technical Skills: JavaScript, Node.js, Express.js, React.js, Redux, Python, Flask, Django, Microservices, Machine Learning, PyTorch, Large Language Models (LLM), Docker, Google Cloud, Firebase, Vector Databases (PineCone DB), LangChain, AI.</span>
                             <hr>
                             <ul>
-                                <li>Architected Aurora, a Fundraising Copilot leveraging advanced RAG pipeline implementing multi-stage
-                                    retrieval optimization with hybrid search techniques and custom-trained language models.</li>
-                                <li>Engineered an AI-powered Investor Network Recommendation engine that analyzes email interactions and
-                                    their web-scraped investor data to calculate relationship strength and investment probability. Implemented
-                                    intelligent matching algorithms that reduced investor search time by 65%.</li>
+                                <li>Architected Aurora, a Fundraising Copilot leveraging an advanced RAG pipeline with LangGraph,
+                                    implementing multi-stage retrieval optimization with hybrid search techniques and custom-trained
+                                    language models to provide better responses and highly relevant investor recommendations.</li>
+                                <li>Engineered an AI-powered Investor Network Recommendation Engine that analyzes email interactions and
+                                    web-scraped investor data to calculate relationship strength and investment probability. Implemented
+                                    intelligent matching algorithms, reducing investor search time by 65%.</li>
+                                <li>Leveraged LLM-powered tools like APIChain, RequestsTool, and PythonREPLTool for dynamic web
+                                    scraping, structured data extraction, and real-time information retrieval to refine investor intelligence.</li>
+                                <li>Developed the front-end of Aurora using React and Next.js. Architected and deployed scalable backend
+                                    services with Flask and Node.js. Integrated Elasticsearch, enhancing data retrieval speed by 40%.</li>
+                                <li>Implemented security protocols, including OAuth 2.0 authentication, and role-based access control.</li>
+                                <li>Managed full SDLC phases, from requirement analysis and design to deployment on Google Cloud Run.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">May 2024 - Jan 2025</span></div>
@@ -90,9 +97,11 @@
                             <hr>
                             <ul>
                                 <li>Devised core services for OneDataShare, including a Single Sign-On feature for social and organizational
-                                    logins using OAuth2 and OIDC Security Protocols. Optimized cross-platform data transfer through Bayesian Optimization, DDPG, PPO by 90% predicting optimized transfer parameters.</li>
-                                <li>Teaching and Grading Assistant for CSE 4/587 - Data Intensive Computing and CSE 4/560 Data Models and Query Language courses at the University at
-                                    Buffalo, responsible for delivering instructional support and evaluating the performance of 250+ students.</li>
+                                    logins using OAuth 2.0 and OIDC Authentication. Optimized cross-platform data transfer through Bayesian Optimization, DDPG, and PPO by 90% predicting optimized transfer parameters.</li>
+                                <li>Teaching and Grading Assistant for CSE 4/587 – Data Intensive Computing and CSE 4/560 – Data
+                                    Models and Query Language at UB, supporting 250+ students. Focused on advanced database concepts,
+                                    Hadoop, MapReduce, Apache Spark/Spark Streaming, and machine learning fundamentals to bridge
+                                    theory with scalable real-world data solutions.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">January 2024 - Present</span></div>
@@ -105,23 +114,13 @@
                             <span class="small-text">Technical Skills: Java, Spring Framework, Microservice, Apache Kafka, Flink, NiFi, Redis, Docker, AWS, Kubernetes, CI/CD, Jenkins, ArgoCD, Tekton, MongoDB, React.js, Redux, HTML, CSS.</span>
                             <hr>
                             <ul>
-                                <li>Implemented Flow Designer, an innovative No Code drag-and-drop featured Platform for efficient Applicant Tracking System (ATS) job processing with an efficiency of 90%.</li>
-                                <ul>
-                                    <li>Developed Flow Designer, an alternative to Flow Studio, a No-code platform with drag-and-drop connectors for high-level sub-flow and flow creation. Designed and implemented process functions for the Extraction, Transformation, and Load (ETL) phases, including Fetching, Splitting, Extracting, and Evaluating from ATS.
-                                        Automated backend Flink code generation, Manifest file creation, and Docker image build using Apache Velocity and ANTLR. Built a JAR Server to generate and store Flink applications, pushing JARs, Manifest, and Docker files to AWS S3.
-                                        Automated deployment with Terraform and Tekton, triggering pipelines to deploy apps to Kubernetes (K8S). Developed Flink test cases and performed integration testing for the complete Spring Boot application.</li>                                
-                                </ul>
-                                <ul>
-                                    <li>Automated critical tasks, including data fetching, evaluation, and updating career sites facilitated by an advanced Java, Flink application supported with a dynamic React-based UI, resulting in 75% fewer manual tasks.</li>
-                                </ul>
-                                <li>Developed an on-demand data migration system using Apache Flink and Apache NiFi for extracting candidates from open jobs and user-specified jobs in Workday ATS, achieving an 88% optimization in the extraction phase.
-                                    Leveraged Apache NiFi for transformation and load phases, integrating with the Flink backend via Kafka events to handle real-time data streaming. Utilized big data techniques to optimize performance and scalability. Managed both backend development and deployment operations.</li>
+                                <li>Architected and Engineered Flow Designer and Connector Builder, an alternative to Flow Studio at Phenom, a low/no-code platform with drag-and-drop connectors for high-level flow and sub-flow creation. This tool automates the implementation of process functions for the Extraction, Transformation, and Load (ETL) phases, including Fetching, Splitting, Extracting, and Evaluating from ATS by autogenerating Flink code, Manifest files, and Dockerfile build using Apache Velocity, Apache Ant and ANTLR. Additionally, designed and built a JAR Server to automate JAR file creation for the autogenerated code, which is then used to generate a Docker image that is seamlessly pushed to AWS S3. Automated the deployment of the autogenerated application using Terraform and Tekton, orchestrating CI/CD pipelines to seamlessly deploy applications to Kubernetes (K8S). It internally implements Flink test cases and also conducts comprehensive integration testing during the CI/CD to ensure the reliability and performance of the autogenerated Flink Spring Boot application.</li>
+                                <li>Developed an on-demand data migration system using Apache Flink and Apache NiFi for extracting candidates from open jobs and user-specified jobs in Workday ATS, achieving an 88% optimization in the extraction phase. Leveraged Apache NiFi for transformation and load phases, integrating with the Flink backend via Kafka events to handle real-time data streaming. Utilized big data techniques to optimize performance and scalability. Managed both backend development and deployment operations.</li>
                                 <li>Utilized PyTorch BigGraph to architect and train an innovative graph embedding model, revolutionizing the prediction of crucial missing features for candidate profiles.</li>
-                                <li>Engineered sophisticated backend applications in Java, utilizing multi-threading to efficiently extract
-                                    attachments and profile data from ATS. This optimization led to a significant 88.4% reduction in
-                                    operational time for CRM updates.</li>
-                                <li>Worked on fetching the delta candidates for SuccessFactors ATS using Apache Flink and Apache NiFi.</li>
-                                <li>Worked on video assessment integration for recruiting candidates through self-video assessment.</li>
+                                <li>Designed fault-tolerant and scalable streaming workflows to handle large volumes of recruitment data while maintaining data consistency and low-latency processing.</li>
+                                <li>Worked on fetching the delta candidates for SuccessFactors ATS using Apache Flink Spring Boot application and Apache NiFi.</li>
+                                <li>Integrated video assessment workflows into the recruitment pipeline, enabling automated candidate evaluations through self-video assessments.</li>
+                                <li>Utilized PyTorch BigGraph to architect and train an innovative graph embedding model, revolutionizing the prediction of crucial missing features for candidate profiles.</li>
                             </ul>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">April 2022 - July 2023</span></div>
@@ -149,9 +148,16 @@
                             <span class="small-text">Technical Skills: Java, Spring Framework, React.js, HTML, CSS, MySQL, MongoDB.</span>
                             <hr>
                             <ul>
-                                <li>Played a crucial role in crafting adapters, which are essential components within JAVA Spring Boot Application. Particularly, designed a Survey Monkey Adapter for survey collection and a Payment Gateway Interface for the NSLHUB Platform.</li>
-                                <li>Pioneered development in sophisticated libraries and frameworks to integrate Spring Boot with Big Data Technologies, facilitating streamlined applications for data pipe-lining.</li>
-                                <li>Enhanced data streaming algorithms using Dynamic Programming as part of the Research and Development team achieving a reduction of time complexity by 50%.</li>
+                                <li>Played a crucial role in engineering scalable Spring Boot backend services for survey collection and
+                                    seamless payment integration, ensuring high availability, security, and optimized performance.</li>
+                                <li>Built real-time Grafana dashboards to monitor metrics, and performance, enhancing decision-making
+                                    efficiency and insights.</li>
+                                <li>Enhanced operational efficiency by implementing multi-threading and caching solutions using Redis.</li>
+                                <li>Pioneered development in sophisticated libraries and frameworks to integrate Spring Boot with Big Data Technologies, facilitating streamlined applications for data pipeline.</li>
+                                <li>Enhanced data streaming algorithms using Dynamic Programming (DBSCAN algorithm) which updates clusters dynamically without recomputation achieving a reduction of time complexity by 50%.</li>
+                                <li>Designed and deployed Machine Learning models to analyze market trends, predict customer behavior, and
+                                    optimize B2B pricing strategies, leveraging data-driven insights to maximize revenue potential. Built
+                                    real-time analytics dashboards to monitor pricing performance, improving decision-making efficiency.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">December 2021 - April 2022</span></div>
