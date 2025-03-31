@@ -301,6 +301,57 @@
                     <h2 class="mb-5">Projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-3">Reinforcement Learning with Human Feedback (RLHF) Using PPO for Sentiment Analysis</h3>
+                            <p>
+                                Engineered RLHF-PPO for Sentiment Analysis, a reinforcement learning framework built from scratch, leveraging Proximal Policy Optimization (PPO) with Human Feedback to enhance sentiment classification on the IMDB dataset following Huggingface methodology. This project integrates off-policy learning, adaptive reward modeling, and robust policy gradient techniques to improve AI alignment for sentiment analysis.
+                            </p>
+                            <br>
+                            <h5>Key Innovations & Optimizations:</h5>
+                            <ul>
+                                <li>
+                                    <strong>RLHF for Sentiment Understanding:</strong>
+                                    <p>
+                                        Developed a reward model trained on human-labeled sentiment preferences, enabling the policy to align better with nuanced sentiment patterns. This approach refines traditional classification by integrating reinforcement learning for contextual understanding.
+                                    </p>
+                                </li>
+                                <li>
+                                    <strong>Custom PPO Implementation for Stability & Performance:</strong>
+                                    <p>
+                                        Implemented PPO from scratch, optimizing the clipped objective function to stabilize policy updates. The actor-critic framework balances exploration and exploitation, ensuring robust sentiment prediction.
+                                    </p>
+                                </li>
+                                <li>
+                                    <strong>Off-Policy Learning for Data Efficiency:</strong>
+                                    <p>
+                                        Designed an off-policy training mechanism to learn from past experiences, improving sample efficiency and reducing redundant computations. This enables scalable and cost-effective training.
+                                    </p>
+                                </li>
+                                <li>
+                                    <strong>Reward Hacking Prevention & Adaptive Reward Shaping:</strong>
+                                    <p>
+                                        Addressed reward hacking by designing structured reward functions that discourage unintended policy behaviors. Regularization and penalty-based adjustments ensure rewards align with human preferences.
+                                    </p>
+                                </li>
+                                <li>
+                                    <strong>Optimized NLP Pipeline for Large-Scale Sentiment Analysis:</strong>
+                                    <p>
+                                        Built an end-to-end pipeline with efficient tokenization, batch processing, and reward-based policy updates, optimized for sentiment variations while maintaining computational efficiency.
+                                    </p>
+                                </li>
+                                <li>
+                                    <strong>Fine-Tuned Generalized Advantage Estimation (GAE):</strong>
+                                    <p>
+                                        Implemented GAE to improve advantage function estimation, reducing variance while balancing bias, ensuring training stability, and faster convergence.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <a href="https://github.com/vamshikrishnakyatham/rlhf-ppo" target="_blank" class="btn btn-primary">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-3">Paligemma Multimodal Vision Language Transformer</h3>
                             <p>
                                 Engineered PaliGemma, a vision language model leveraging PyTorch, optimized for seamless visual and textual data processing. The model integrates KV caching and Grouped Query Attention (GQA) to enhance computational efficiency, enabling faster inference, reduced memory usage, and improved multimodal understanding.
